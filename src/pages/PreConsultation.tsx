@@ -96,7 +96,7 @@ const PreConsultation = () => {
                 "Test your tech - Camera and mic working? We need to see and hear you clearly"
               ].map((item, index) => (
                 <div key={index} className="flex items-start space-x-3 md:space-x-4">
-                  <CheckCircle className="w-6 h-6 md:w-7 md:h-7 text-accent mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-6 h-6 md:w-7 md:h-7 text-primary mt-1 flex-shrink-0" />
                   <span className="text-large md:text-xl-readable leading-relaxed">{item}</span>
                 </div>
               ))}
