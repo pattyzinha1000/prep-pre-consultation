@@ -23,6 +23,10 @@ export default {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
         },
+        "hero-zoom": {
+          DEFAULT: "hsl(var(--hero-zoom-bg))",
+          foreground: "hsl(var(--hero-zoom-text))",
+        },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",

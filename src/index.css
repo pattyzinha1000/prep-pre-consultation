@@ -17,8 +17,12 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 220 25% 15%;
 
-    --primary: 220 50% 25%;
+    --primary: 263 68% 56%;
     --primary-foreground: 0 0% 100%;
+    
+    /* Custom hero colors */
+    --hero-zoom-bg: 265 67% 97%;
+    --hero-zoom-text: 263 68% 56%;
 
     --secondary: 210 25% 95%;
     --secondary-foreground: 220 50% 25%;
