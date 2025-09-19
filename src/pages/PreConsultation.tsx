@@ -15,9 +15,14 @@ const PreConsultation = () => {
               <Calendar className="w-8 h-8 md:w-10 md:h-10 mb-2 md:mb-0 md:mr-3 text-hero-zoom-foreground" />
               <span className="text-xl-readable md:text-2xl-readable font-semibold text-hero-zoom-foreground">Your Zoom Link:</span>
             </div>
-            <p className="text-xl-readable md:text-2xl-readable lg:text-3xl-readable font-bold mb-4 md:mb-6 break-all text-hero-zoom-foreground">
+            <a 
+              href="https://thefitnessdoctor.zoom.us/j/8495443029" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-xl-readable md:text-2xl-readable lg:text-3xl-readable font-bold mb-4 md:mb-6 break-all text-hero-zoom-foreground hover:underline transition-all duration-200 block"
+            >
               https://thefitnessdoctor.zoom.us/j/8495443029
-            </p>
+            </a>
             <p className="text-large md:text-xl-readable font-medium mb-2 md:mb-3 text-hero-zoom-foreground">
               (Save this now. Add it to your calendar. Set a reminder.)
             </p>
