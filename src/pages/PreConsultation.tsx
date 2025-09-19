@@ -68,9 +68,7 @@ const PreConsultation = () => {
               "Your specific compensation patterns identified",
               "Why your body stopped following the rules",
               "3-5 movements designed for YOUR exact structure",
-              "Clear next steps (no more guessing)",
-              "Your session recording to review later",
-              "Your personal blueprint to keep"
+              "Clear next steps (no more guessing)"
             ].map((item, index) => (
               <div key={index} className="flex items-start space-x-3 md:space-x-4 bg-success border border-success-border rounded-lg p-4 md:p-5">
                 <Target className="w-6 h-6 md:w-7 md:h-7 text-black mt-1 flex-shrink-0" />
