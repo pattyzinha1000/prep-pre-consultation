@@ -36,12 +36,13 @@ All colors MUST be HSL.
     --input: 210 25% 90%;
     --ring: 220 50% 25%;
 
-    /* Custom tokens for 50+ audience */
-    --text-large: 1.125rem;
-    --text-xl: 1.25rem;
-    --text-2xl: 1.5rem;
-    --text-3xl: 1.875rem;
-    --text-4xl: 2.25rem;
+    /* Custom tokens for 50+ audience - Larger fonts for better readability */
+    --text-large: 1.25rem;     /* 20px */
+    --text-xl: 1.5rem;         /* 24px */
+    --text-2xl: 1.875rem;      /* 30px */
+    --text-3xl: 2.25rem;       /* 36px */
+    --text-4xl: 2.75rem;       /* 44px */
+    --text-5xl: 3.25rem;       /* 52px */
     
     --emphasis-bg: 50 100% 95%;
     --emphasis-border: 50 100% 80%;

@@ -78,6 +78,7 @@ export default {
         '2xl-readable': 'var(--text-2xl)',
         '3xl-readable': 'var(--text-3xl)',
         '4xl-readable': 'var(--text-4xl)',
+        '5xl-readable': 'var(--text-5xl)',
       },
       boxShadow: {
         'soft': 'var(--shadow-soft)',
