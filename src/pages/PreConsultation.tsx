@@ -12,21 +12,21 @@ const PreConsultation = () => {
           
           <div className="bg-hero-zoom rounded-lg p-6 md:p-8 max-w-4xl mx-auto border border-hero-zoom-foreground/20">
             <div className="flex flex-col md:flex-row items-center justify-center mb-4 md:mb-6">
-              <Calendar className="w-8 h-8 md:w-10 md:h-10 mb-2 md:mb-0 md:mr-3 text-hero-zoom-foreground" />
-              <span className="text-xl-readable md:text-2xl-readable font-semibold text-hero-zoom-foreground">Your Zoom Link:</span>
+              <Calendar className="w-8 h-8 md:w-10 md:h-10 mb-2 md:mb-0 md:mr-3 text-black" />
+              <span className="text-xl-readable md:text-2xl-readable font-semibold text-black">Your Zoom Link:</span>
             </div>
             <a 
               href="https://thefitnessdoctor.zoom.us/j/8495443029" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-xl-readable md:text-2xl-readable lg:text-3xl-readable font-bold mb-4 md:mb-6 break-all text-hero-zoom-foreground hover:underline transition-all duration-200 block"
+              className="text-xl-readable md:text-2xl-readable lg:text-3xl-readable font-bold mb-4 md:mb-6 break-all text-black hover:underline transition-all duration-200 block"
             >
               https://thefitnessdoctor.zoom.us/j/8495443029
             </a>
-            <p className="text-large md:text-xl-readable font-medium mb-2 md:mb-3 text-hero-zoom-foreground">
+            <p className="text-large md:text-xl-readable font-medium mb-2 md:mb-3 text-black">
               (Save this now. Add it to your calendar. Set a reminder.)
             </p>
-            <p className="text-large md:text-xl-readable text-hero-zoom-foreground">
+            <p className="text-large md:text-xl-readable text-black">
               In about 10 minutes, you will receive your confirmation in your email inbox.
             </p>
           </div>
