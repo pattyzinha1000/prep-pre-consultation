@@ -73,8 +73,8 @@ const PreConsultation = () => {
               "Your personal blueprint to keep"
             ].map((item, index) => (
               <div key={index} className="flex items-start space-x-3 md:space-x-4 bg-success border border-success-border rounded-lg p-4 md:p-5">
-                <Target className="w-6 h-6 md:w-7 md:h-7 text-success-foreground mt-1 flex-shrink-0" />
-                <span className="text-large md:text-xl-readable font-medium text-success-foreground leading-relaxed">{item}</span>
+                <Target className="w-6 h-6 md:w-7 md:h-7 text-black mt-1 flex-shrink-0" />
+                <span className="text-large md:text-xl-readable font-medium text-black leading-relaxed">{item}</span>
               </div>
             ))}
           </div>
