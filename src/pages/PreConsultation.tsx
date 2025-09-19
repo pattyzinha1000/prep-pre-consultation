@@ -4,7 +4,7 @@ const PreConsultation = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <div className="bg-primary text-primary-foreground py-8 md:py-10 lg:py-12">
+      <div className="bg-primary text-primary-foreground py-4 md:py-6 lg:py-8">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <h1 className="text-3xl-readable md:text-4xl-readable lg:text-5xl-readable font-bold leading-tight mb-6 md:mb-8">
             The 60 Minutes That Could Change Your Next 20 Years
