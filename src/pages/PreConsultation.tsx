@@ -19,7 +19,7 @@ const PreConsultation = () => {
               href="https://thefitnessdoctor.zoom.us/j/8495443029" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-xl-readable md:text-2xl-readable lg:text-3xl-readable font-bold mb-4 md:mb-6 break-all text-black hover:underline transition-all duration-200 block"
+              className="text-large md:text-xl-readable font-bold mb-4 md:mb-6 break-all text-black hover:underline transition-all duration-200 block"
             >
               https://thefitnessdoctor.zoom.us/j/8495443029
             </a>
