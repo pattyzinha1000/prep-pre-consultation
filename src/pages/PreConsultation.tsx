@@ -44,7 +44,7 @@ const PreConsultation = () => {
         {/* This Isn't Just Some Appointment */}
         <section className="mb-12 md:mb-16">
           <div className="bg-emphasis border-l-4 border-accent p-6 md:p-8 rounded-r-lg shadow-soft">
-            <h2 className="text-2xl-readable md:text-3xl-readable lg:text-4xl-readable font-bold mb-4 md:mb-6 text-primary">
+            <h2 className="text-2xl-readable md:text-3xl-readable lg:text-4xl-readable font-bold mb-4 md:mb-6 text-black">
               This Isn't Just Some Appointment
             </h2>
             <div className="space-y-4 md:space-y-5 text-large md:text-xl-readable leading-relaxed">
@@ -60,7 +60,7 @@ const PreConsultation = () => {
 
         {/* What You'll Walk Away With */}
         <section className="mb-12 md:mb-16">
-          <h2 className="text-2xl-readable md:text-3xl-readable lg:text-4xl-readable font-bold mb-6 md:mb-8 text-primary text-center">
+          <h2 className="text-2xl-readable md:text-3xl-readable lg:text-4xl-readable font-bold mb-6 md:mb-8 text-black text-center">
             What You'll Walk Away With:
           </h2>
           <div className="grid md:grid-cols-2 gap-4 md:gap-6">
@@ -82,7 +82,7 @@ const PreConsultation = () => {
 
         {/* Set Yourself Up for Success */}
         <section className="mb-12 md:mb-16">
-          <h2 className="text-2xl-readable md:text-3xl-readable lg:text-4xl-readable font-bold mb-6 md:mb-8 text-primary text-center">
+          <h2 className="text-2xl-readable md:text-3xl-readable lg:text-4xl-readable font-bold mb-6 md:mb-8 text-black text-center">
             Set Yourself Up for Success:
           </h2>
           <div className="bg-card border border-border rounded-lg p-6 md:p-8 shadow-soft">
@@ -117,7 +117,7 @@ const PreConsultation = () => {
         {/* Can't Make It Section */}
         <section className="mb-12 md:mb-16">
           <div className="bg-muted border border-border rounded-lg p-6 md:p-8 shadow-soft">
-            <h3 className="text-xl-readable md:text-2xl-readable lg:text-3xl-readable font-bold mb-4 md:mb-5 text-primary">Can't Make It?</h3>
+            <h3 className="text-xl-readable md:text-2xl-readable lg:text-3xl-readable font-bold mb-4 md:mb-5 text-black">Can't Make It?</h3>
             <p className="text-large md:text-xl-readable leading-relaxed mb-4 md:mb-5">
               <a href="mailto:michel@thefitnessdoctor.com" className="text-accent hover:underline font-medium">
                 Email michel@thefitnessdoctor.com
@@ -134,7 +134,7 @@ const PreConsultation = () => {
           <div className="bg-primary text-primary-foreground rounded-lg p-6 md:p-8 shadow-emphasis mb-6 md:mb-8">
             <div className="flex flex-col md:flex-row items-center justify-center mb-4 md:mb-6">
               <FileText className="w-8 h-8 md:w-10 md:h-10 mb-2 md:mb-0 md:mr-3" />
-              <h2 className="text-2xl-readable md:text-3xl-readable lg:text-4xl-readable font-bold text-center">
+              <h2 className="text-2xl-readable md:text-3xl-readable lg:text-4xl-readable font-bold text-center text-white">
                 Before Your Session - Fill This Out Now
               </h2>
             </div>
