@@ -50,9 +50,9 @@ All colors MUST be HSL.
     
     --emphasis-bg: 50 100% 95%;
     --emphasis-border: 50 100% 80%;
-    --success-bg: 120 50% 95%;
-    --success-border: 120 50% 75%;
-    --success-text: 120 50% 25%;
+    --success-bg: 265 67% 97%;
+    --success-border: 265 67% 85%;
+    --success-text: 263 68% 56%;
     
     --shadow-soft: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     --shadow-emphasis: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
