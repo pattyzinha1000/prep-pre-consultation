@@ -140,7 +140,7 @@ const PreConsultation = () => {
               <p className="text-left">
                 The form below takes 5 minutes. <strong>The more specific you are about your situation, the more specific we can be about your solutions.</strong> Don't hold back - we've seen it all, we've fixed most of it.
               </p>
-              <p className="font-medium">
+              <p className="font-medium text-left">
                 That symptom you've been worried about? The one you haven't told anyone? <strong>Write it in the form. We likely know what to do about it.</strong>
               </p>
             </div>
