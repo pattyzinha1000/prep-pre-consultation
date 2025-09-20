@@ -137,7 +137,7 @@ const PreConsultation = () => {
               </h2>
             </div>
             <div className="space-y-4 md:space-y-5 text-large md:text-xl-readable leading-relaxed text-center">
-              <p>
+              <p className="text-left">
                 The form below takes 5 minutes. <strong>The more specific you are about your situation, the more specific we can be about your solutions.</strong> Don't hold back - we've seen it all, we've fixed most of it.
               </p>
               <p className="font-medium">
