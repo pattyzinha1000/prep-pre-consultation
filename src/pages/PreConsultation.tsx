@@ -162,6 +162,17 @@ const PreConsultation = () => {
             </iframe>
           </div>
         </section>
+
+        {/* Testimonials Section */}
+        <section className="mt-12 md:mt-16">
+          <div className="text-center mb-6 md:mb-8">
+            <h2 className="text-2xl-readable md:text-3xl-readable lg:text-4xl-readable font-bold text-black mb-4">
+              Health Restored. Confidence Rebuilt. Lives Changed. See Why Thousands Trust The Fitness Doctor!
+            </h2>
+          </div>
+          
+          <div className="elfsight-app-c7e31a38-99af-4b5d-b953-77b09a988765" data-elfsight-app-lazy></div>
+        </section>
       </div>
     </div>
   );
