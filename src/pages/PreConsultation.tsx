@@ -163,13 +163,6 @@ const PreConsultation = () => {
           </div>
         </section>
 
-        {/* Testimonials Section */}
-        <section className="mt-12 md:mt-16">
-          <div className="text-center mb-6 md:mb-8">
-          </div>
-          
-          <div className="elfsight-app-c7e31a38-99af-4b5d-b953-77b09a988765" data-elfsight-app-lazy></div>
-        </section>
       </div>
     </div>
   );
