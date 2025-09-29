@@ -1,6 +1,8 @@
 import { CheckCircle, ArrowDown, Calendar, Users, Target, FileText } from "lucide-react";
+
 const PreConsultation = () => {
-  return <div className="min-h-screen bg-background">
+  return (
+    <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <div className="bg-primary text-primary-foreground py-2 md:py-3 lg:py-4">
         <div className="container mx-auto px-4 md:px-6 text-center">
@@ -13,14 +15,20 @@ const PreConsultation = () => {
               <Calendar className="w-8 h-8 md:w-10 md:h-10 mb-2 md:mb-0 md:mr-3 text-black" />
               <span className="text-xl-readable md:text-2xl-readable font-semibold text-black">Your Zoom Link:</span>
             </div>
-            <a href="https://thefitnessdoctor.zoom.us/j/8495443029" target="_blank" rel="noopener noreferrer" className="text-large md:text-xl-readable font-bold mb-4 md:mb-6 break-all text-black hover:underline transition-all duration-200 block">
+            <a 
+              href="https://thefitnessdoctor.zoom.us/j/8495443029" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-large md:text-xl-readable font-bold mb-4 md:mb-6 break-all text-black hover:underline transition-all duration-200 block hover:text-[#714FD5] active:text-[#714FD5]"
+            >
               https://thefitnessdoctor.zoom.us/j/8495443029
             </a>
             <p className="text-large md:text-xl-readable font-medium mb-2 md:mb-3 text-black">
               (Save this now. Add it to your calendar. Set a reminder.)
             </p>
-            <p className="text-large md:text-xl-readable text-black">In about 10 minutes, you will receive your confirmation in your email inbox.
-❗ Important: Fill out the form at the bottom of this page so your Fitness Doctor expert is ready to help you achieve your goals.</p>
+            <p className="text-large md:text-xl-readable text-black">
+              In about 10 minutes, you will receive your confirmation in your email inbox.
+            </p>
           </div>
           
           <div className="mt-6 md:mt-8 flex justify-center">
@@ -44,7 +52,7 @@ const PreConsultation = () => {
                 Our experts don't just watch you move. <strong>They decode what your body's been trying to tell you.</strong>
               </p>
               <p>
-                In 90 minutes, you'll understand more about your body than you have in years. Those mysterious pains, that morning stiffness, the weakness that came from nowhere - <strong>you're about to learn what's really happening.</strong>
+                In 60 minutes, you'll understand more about your body than you have in years. Those mysterious pains, that morning stiffness, the weakness that came from nowhere - <strong>you're about to learn what's really happening.</strong>
               </p>
             </div>
           </div>
@@ -56,10 +64,17 @@ const PreConsultation = () => {
             What You'll Walk Away With:
           </h2>
           <div className="grid md:grid-cols-2 gap-4 md:gap-6">
-            {["Your specific compensation patterns identified", "Why your body stopped following the rules", "3-5 movements designed for YOUR exact structure", "Clear next steps (no more guessing)"].map((item, index) => <div key={index} className="flex items-start space-x-3 md:space-x-4 bg-success border border-success-border rounded-lg p-4 md:p-5">
+            {[
+              "Your specific compensation patterns identified",
+              "Why your body stopped following the rules",
+              "3-5 movements designed for YOUR exact structure",
+              "Clear next steps (no more guessing)"
+            ].map((item, index) => (
+              <div key={index} className="flex items-start space-x-3 md:space-x-4 bg-success border border-success-border rounded-lg p-4 md:p-5">
                 <Target className="w-6 h-6 md:w-7 md:h-7 text-black mt-1 flex-shrink-0" />
                 <span className="text-large md:text-xl-readable font-medium text-black leading-relaxed">{item}</span>
-              </div>)}
+              </div>
+            ))}
           </div>
         </section>
 
@@ -70,15 +85,27 @@ const PreConsultation = () => {
           </h2>
           <div className="bg-card border border-border rounded-lg p-6 md:p-8 shadow-soft">
             <div className="space-y-4 md:space-y-5">
-              {["Clear some space - You'll be moving to show us your patterns", "Use a computer or tablet - Phone screens are too small to see what we need", "Wear what you'd exercise in - We need to see how you actually move", "Find a quiet spot - No distractions when we're solving your puzzle", "Don't join from your car - This requires your full participation", "Test your tech - Camera and mic working? We need to see and hear you clearly"].map((item, index) => <div key={index} className="flex items-start space-x-3 md:space-x-4">
+              {[
+                "Clear some space - You'll be moving to show us your patterns",
+                "Use a computer or tablet - Phone screens are too small to see what we need",
+                "Wear what you'd exercise in - We need to see how you actually move",
+                "Find a quiet spot - No distractions when we're solving your puzzle",
+                "Don't join from your car - This requires your full participation",
+                "Test your tech - Camera and mic working? We need to see and hear you clearly"
+              ].map((item, index) => (
+                <div key={index} className="flex items-start space-x-3 md:space-x-4">
                   <CheckCircle className="w-6 h-6 md:w-7 md:h-7 text-primary mt-1 flex-shrink-0" />
                   <span className="text-large md:text-xl-readable leading-relaxed">{item}</span>
-                </div>)}
+                </div>
+              ))}
             </div>
             
             <div className="mt-6 md:mt-8 p-4 md:p-6 bg-secondary rounded-lg">
               <p className="text-large md:text-xl-readable font-semibold mb-2">Need help with anything?</p>
-              <a href="mailto:michel@thefitnessdoctor.com" className="text-accent hover:underline text-large md:text-xl-readable font-medium">
+              <a 
+                href="mailto:michel@thefitnessdoctor.com" 
+                className="text-accent hover:underline text-large md:text-xl-readable font-medium"
+              >
                 Email michel@thefitnessdoctor.com
               </a>
             </div>
@@ -121,13 +148,24 @@ const PreConsultation = () => {
 
           {/* Google Form Iframe */}
           <div className="bg-white rounded-lg shadow-emphasis p-2 md:p-4">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdxoKpsOMtXss2YxTkVsB3Y9TbSYRGuAbWoEY4cB0N--pj9wQ/viewform?embedded=true" width="100%" height="1915" frameBorder="0" marginHeight={0} marginWidth={0} className="rounded-lg min-h-[1200px] md:min-h-[1915px]" title="Pre-consultation form">
+            <iframe 
+              src="https://docs.google.com/forms/d/e/1FAIpQLSdxoKpsOMtXss2YxTkVsB3Y9TbSYRGuAbWoEY4cB0N--pj9wQ/viewform?embedded=true" 
+              width="100%" 
+              height="1915" 
+              frameBorder="0" 
+              marginHeight={0} 
+              marginWidth={0}
+              className="rounded-lg min-h-[1200px] md:min-h-[1915px]"
+              title="Pre-consultation form"
+            >
               Loading…
             </iframe>
           </div>
         </section>
 
       </div>
-    </div>;
+    </div>
+  );
 };
+
 export default PreConsultation;
