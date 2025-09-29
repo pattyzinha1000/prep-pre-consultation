@@ -32,7 +32,7 @@ const PreConsultation = () => {
           </div>
           
           <div className="mt-6 md:mt-8 rounded-lg p-4 md:p-6 max-w-4xl mx-auto" style={{backgroundColor: '#ffff00', border: '1px solid #ffff00'}}>
-            <p className="text-large md:text-xl-readable text-center text-black">
+            <p className="text-large md:text-xl-readable font-semibold text-center text-black">
               <span style={{color: '#ffff00'}}>!</span> IMPORTANT: Fill out the form at the bottom of this page so your Fitness Doctor expert is ready to help you achieve your goals. <span style={{color: '#ffff00'}}>!</span>
             </p>
           </div>
