@@ -31,6 +31,12 @@ const PreConsultation = () => {
             </p>
           </div>
           
+          <div className="mt-6 md:mt-8 bg-warning border border-warning-border rounded-lg p-4 md:p-6 max-w-4xl mx-auto">
+            <p className="text-large md:text-xl-readable font-semibold text-center text-black">
+              ❗ Important: Fill out the form at the bottom of this page so your Fitness Doctor expert is ready to help you achieve your goals.❗
+            </p>
+          </div>
+          
           <div className="mt-6 md:mt-8 flex justify-center">
             <ArrowDown className="w-8 h-8 md:w-10 md:h-10 animate-bounce" />
           </div>
