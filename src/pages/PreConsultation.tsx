@@ -52,7 +52,7 @@ const PreConsultation = () => {
                 Our experts don't just watch you move. <strong>They decode what your body's been trying to tell you.</strong>
               </p>
               <p>
-                In 90 minutes, you'll understand more about your body than you have in years. Those mysterious pains, that morning stiffness, the weakness that came from nowhere - <strong>you're about to learn what's really happening.</strong>
+                In 60 minutes, you'll understand more about your body than you have in years. Those mysterious pains, that morning stiffness, the weakness that came from nowhere - <strong>you're about to learn what's really happening.</strong>
               </p>
             </div>
           </div>
